@@ -110,24 +110,6 @@ Si el escaneo QR no funciona o prefieres pegar el enlace:
 - **Permisos**: cuando el agente necesite permiso aparecerá un diálogo con los
   recursos afectados.
 
-## Compilar desde el código
-
-Requisitos: JDK 17/21, Android SDK 35 y Gradle 8.9 (el wrapper se encarga).
-
-```sh
-export JAVA_HOME=/ruta/al/jdk21
-export ANDROID_HOME=/ruta/al/android-sdk
-./gradlew assembleDebug
-```
-
-El APK se genera en `app/build/outputs/apk/debug/app-debug.apk`.
-
-Pruebas unitarias de los parsers y el código QR:
-
-```sh
-./gradlew testDebugUnitTest
-```
-
 ## Seguridad
 
 - No expongas el puerto de OpenCode directamente a Internet. Usa
