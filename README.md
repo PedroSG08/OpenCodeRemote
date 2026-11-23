@@ -5,7 +5,6 @@ Interfaz en español, tema claro/oscuro y streaming en vivo mediante SSE.
 
 ## Versión 0.2.0
 
-- **Novedad**: botón **Escanear QR y conectar** (requiere cámara y Google Play Services).
 - **Principal**: conexión manual por URL y token (funciona en cualquier dispositivo).
 - Lista de sesiones con búsqueda y estado en vivo.
 - Chat con respuestas del agente en streaming (texto y razonamiento).
@@ -22,27 +21,6 @@ Interfaz en español, tema claro/oscuro y streaming en vivo mediante SSE.
 - OpenCode **V2** en el ordenador (probado con **v2.3.2**).
 - Android 8.0 (API 26) o superior.
 - Móvil y ordenador en la misma red, o un túnel (OpenTunnel, Tailscale, SSH…).
-
-## Instalar el APK
-
-El APK de depuración está en:
-
-```
-app/build/outputs/apk/debug/app-debug.apk
-```
-
-También hay copias listas para instalar:
-
-- `/home/pedro/OpenCodeRemote-final.apk` (versión 0.2.0, con botón QR)
-- `/home/pedro/OpenCodeRemote-apk.apk` (versión 0.1.0, sin QR, compatibilidad máxima)
-
-### Instalación por USB
-
-```sh
-adb install -r app/build/outputs/apk/debug/app-debug.apk
-```
-
-O copia el APK al móvil, ábrelo y permite la instalación de aplicaciones de origen desconocido.
 
 ## Conectar con el ordenador
 
